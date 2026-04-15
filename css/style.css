@@ -62,6 +62,18 @@ article ul, ol, dl{
 article img{
     width: 500px;
 }
+article table {
+    border: 3px solid;
+    background-color: #f2f3d8;
+}
+article table th{
+    color: #f2f3d8;
+    background-color: #44461e;
+}
+article table th, td{
+    border: 1px solid;
+}
+
 aside{
     justify-content: center;
     flex: 1;
