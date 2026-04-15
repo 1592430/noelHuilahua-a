@@ -55,7 +55,7 @@ article{
     border-radius: 8px;
     box-shadow: 0 2px 5px #022442;
 }
-article ul, ol, dl, li{
+article ul, ol, dl{
     padding: 10px;
     margin: 10px;
 }
