@@ -9,7 +9,7 @@ function js(){
     alert("Esto es JS");
 }
 function html(){
-    document.getElementById("JS").src="imagenes/html-logo.jpeg";
+    document.getElementById("HTML").src="imagenes/html-logo.jpeg";
     document.getElementById("TituloHTML").textContent="Esto es el logo de HTML";
 }
 function nombresNav(){
@@ -19,6 +19,7 @@ function nombresNav(){
     document.getElementById("m4").textContent="Cuarta Página";
     document.getElementById("m5").textContent="Quinta Página";
     document.getElementById("m6").textContent="Sexta Página";
+    document.getElementById("m7").textContent="Septima Página";
 }
 
 function cambiarTitulo(){
