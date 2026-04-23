@@ -38,7 +38,7 @@ function cambiarColorTexto() {
 }
 
 function cambiarTamano() {
-    document.getElementById("HTML").style.width = "300px";
+    document.getElementById("logosenati").style.width = "300px";
 }
 
 function modoOscuro() {
@@ -51,7 +51,7 @@ function modoOscuro() {
 // 2 CAMBIO DE TEXTO
 // =======================
 function cambiarTitulo() {
-    document.getElementById("TituloHTML").innerText = "Título cambiado con JS";
+    document.getElementById("cambiarTitulo").innerText = "Título cambiado con JS";
 }
 
 function cambiarParrafo() {
