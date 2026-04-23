@@ -57,3 +57,36 @@ function cambiarTitulo() {
 function cambiarParrafo() {
     document.getElementById("parrafo").innerText = "El contenido ha sido modificado usando DOM";
 }
+
+
+
+
+
+// Capturar elementos
+const inputKm = document.getElementById("km");
+const botonCalcular = document.getElementById("calcular");
+const resultado = document.getElementById("resultado");
+
+// Evento
+botonCalcular.addEventListener("click", function () {
+    let km = parseFloat(inputKm.value);
+
+    // Validaciones
+    if (isNaN(km) || km < 0) {
+        resultado.textContent = "Ingrese un valor válido de kilómetros.";
+        return;
+    }
+
+    let total = 0;
+
+    // Lógica de tarifario
+    if (km <= 3) {
+        total = 10; // tarifa base
+    } else {
+        let extra = km - 3;
+        total = 10 + (extra * 3);
+    }
+
+    // Mostrar resultado
+    resultado.textContent = "Total a pagar: $" + total.toFixed(2);
+});

@@ -29,7 +29,16 @@
     </nav>
     <section>
         <article>
+            <h3>Calculadora de Taxi</h3>
 
+            <label for="km">Distancia (km):</label>
+            <input type="number" id="km" placeholder="Ingrese kilómetros" min="0">
+
+            <p><strong>Tarifa:</strong> Hasta 3 km = $10 | Más de 3 km = $3 por km adicional</p>
+
+            <button id="calcular">Calcular costo</button>
+
+            <p id="resultado"></p>
         </article>
         <article>
             <p id="parrafo">
