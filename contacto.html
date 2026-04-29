@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - EcoMarket</title>
+  <meta name="description" content="Contacta con EcoMarket. Estamos aqui para ayudarte con cualquier consulta sobre nuestros productos organicos.">
+  
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link href="css/estilos.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-eco sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <i class="bi bi-leaf me-2"></i>Eco<span>Market</span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+              Mas
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="libro-reclamaciones.html">
+                <i class="bi bi-journal-text me-2"></i>Libro de Reclamaciones
+              </a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="ayuda.html">
+                <i class="bi bi-question-circle me-2"></i>Ayuda
+              </a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">
+        <i class="bi bi-envelope-heart me-3"></i>Contacto
+      </h1>
+      <p class="page-subtitle">Estamos aqui para ayudarte</p>
+    </div>
+  </header>
+
+  <!-- Contact Section -->
+  <section class="contact-section">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="contact-card">
+            <div class="row g-0">
+              <!-- Contact Info -->
+              <div class="col-lg-5">
+                <div class="contact-info h-100">
+                  <h3><i class="bi bi-chat-heart me-2"></i>Contactanos</h3>
+                  <p>
+                    Estamos aqui para ayudarte con cualquier consulta sobre nuestros productos 
+                    organicos. No dudes en escribirnos!
+                  </p>
+                  
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="bi bi-geo-alt-fill"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Direccion</div>
+                      <div class="contact-item-text">Av. Organica 123, Lima</div>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="bi bi-telephone-fill"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Telefono</div>
+                      <div class="contact-item-text">+51 999 888 777</div>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="bi bi-envelope-fill"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Email</div>
+                      <div class="contact-item-text">info@ecomarket.com</div>
+                    </div>
+                  </div>
+                  
+                  <div class="contact-item">
+                    <div class="contact-item-icon">
+                      <i class="bi bi-clock-fill"></i>
+                    </div>
+                    <div>
+                      <div class="contact-item-label">Horario</div>
+                      <div class="contact-item-text">Lun - Sab: 8am - 8pm</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Contact Form -->
+              <div class="col-lg-7">
+                <!-- Form Container -->
+                <div class="contact-form" id="contact-form-container">
+                  <h3 class="form-title">Enviar mensaje</h3>
+                  <p class="form-subtitle">Completa el formulario y te responderemos pronto</p>
+
+                  <form id="contact-form" novalidate>
+                    <div class="form-group">
+                      <label class="form-label">
+                        Nombre completo <span>*</span>
+                      </label>
+                      <input 
+                        type="text" 
+                        class="form-control" 
+                        id="contact-nombre"
+                        placeholder="Tu nombre"
+                      >
+                      <div class="error-message" id="error-nombre"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        Email <span>*</span>
+                      </label>
+                      <input 
+                        type="email" 
+                        class="form-control" 
+                        id="contact-email"
+                        placeholder="tu@email.com"
+                      >
+                      <div class="error-message" id="error-email"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        Asunto <span>*</span>
+                      </label>
+                      <input 
+                        type="text" 
+                        class="form-control" 
+                        id="contact-asunto"
+                        placeholder="Asunto del mensaje"
+                      >
+                      <div class="error-message" id="error-asunto"></div>
+                    </div>
+
+                    <div class="form-group">
+                      <label class="form-label">
+                        Mensaje <span>*</span>
+                      </label>
+                      <textarea 
+                        class="form-control" 
+                        id="contact-mensaje"
+                        rows="5"
+                        placeholder="Escribe tu mensaje aqui..."
+                        maxlength="500"
+                      ></textarea>
+                      <div class="char-count" id="char-count">0/500</div>
+                      <div class="error-message" id="error-mensaje"></div>
+                    </div>
+
+                    <button type="submit" class="btn-submit" id="contact-submit">
+                      <i class="bi bi-send-fill"></i>
+                      Enviar mensaje
+                    </button>
+                  </form>
+                </div>
+
+                <!-- Success Message -->
+                <div class="success-message" id="contact-success">
+                  <div class="success-icon">
+                    <i class="bi bi-check-lg"></i>
+                  </div>
+                  <h3 class="success-title">Mensaje enviado!</h3>
+                  <p class="success-text">
+                    Gracias por contactarnos. Te responderemos lo antes posible a tu correo electronico.
+                  </p>
+                  <button class="btn-back" onclick="resetContactForm()">
+                    <i class="bi bi-arrow-left me-2"></i>Enviar otro mensaje
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-4 mb-lg-0">
+          <div class="footer-brand">
+            <i class="bi bi-leaf me-2"></i>Eco<span>Market</span>
+          </div>
+          <p class="mt-3 text-white-50">
+            Tu tienda de confianza para productos organicos frescos y saludables.
+          </p>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5 class="footer-title">Enlaces</h5>
+          <ul class="footer-links">
+            <li><a href="index.html">Tienda</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-lg-2">
+          <h5 class="footer-title">Legal</h5>
+          <ul class="footer-links">
+            <li><a href="libro-reclamaciones.html">Libro de Reclamaciones</a></li>
+            <li><a href="ayuda.html">Ayuda</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4">
+          <h5 class="footer-title">Contacto</h5>
+          <ul class="footer-links">
+            <li><i class="bi bi-envelope me-2"></i>info@ecomarket.com</li>
+            <li><i class="bi bi-telephone me-2"></i>+51 999 888 777</li>
+            <li><i class="bi bi-geo-alt me-2"></i>Lima, Peru</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="mb-0">&copy; 2024 EcoMarket. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="js/formularios.js"></script>
+</body>
+</html>

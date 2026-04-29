@@ -1,0 +1,962 @@
+/* ===========================================
+   EcoMarket - Estilos Responsive
+   HTML5 + CSS3 + Bootstrap 5
+   =========================================== */
+
+/* ===========================================
+   Large Tablets (max-width: 992px)
+   =========================================== */
+@media (max-width: 992px) {
+  .hero-section {
+    padding: 80px 0;
+  }
+
+  .hero-title {
+    font-size: 3rem;
+  }
+
+  .products-section {
+    padding: 60px 0;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .product-body {
+    padding: 18px;
+  }
+
+  .modal-content-custom {
+    max-width: 700px;
+  }
+
+  .modal-details {
+    padding: 30px;
+  }
+
+  .page-header {
+    padding: 60px 0;
+  }
+
+  .contact-section {
+    padding: 60px 0;
+  }
+
+  .contact-info,
+  .contact-form {
+    padding: 40px 30px;
+  }
+
+  /* Nosotros */
+  .nosotros-section {
+    padding: 60px 0;
+  }
+
+  .nosotros-title {
+    font-size: 1.9rem;
+  }
+
+  .nosotros-subtitle {
+    font-size: 1.25rem;
+  }
+
+  .nosotros-card {
+    border-radius: 20px;
+  }
+
+  .nosotros-image {
+    height: 240px;
+  }
+
+  .value-item {
+    padding: 16px 20px;
+  }
+
+  /* Libro */
+  .libro-section {
+    padding: 60px 0;
+  }
+
+  .libro-form-card {
+    padding: 35px;
+    border-radius: 20px;
+  }
+
+  .libro-icon-wrapper i.main-icon {
+    font-size: 8rem;
+  }
+
+  .libro-title-bold {
+    font-size: 1.8rem;
+  }
+
+  /* Ayuda */
+  .ayuda-section {
+    padding: 60px 0;
+  }
+
+  .ayuda-card {
+    padding: 40px;
+    border-radius: 20px;
+  }
+
+  .ayuda-title {
+    font-size: 1.9rem;
+  }
+
+  .ayuda-icon-wrapper .cart-icon {
+    font-size: 7rem;
+  }
+
+  .ayuda-icon-wrapper .leaf-icon {
+    font-size: 2rem;
+    top: -10px;
+    right: -5px;
+  }
+
+  .ayuda-brand {
+    font-size: 1.7rem;
+  }
+}
+
+/* ===========================================
+   Tablets (max-width: 768px)
+   =========================================== */
+@media (max-width: 768px) {
+  /* Hero Section */
+  .hero-section {
+    padding: 60px 0;
+  }
+
+  .hero-title {
+    font-size: 2.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+
+  /* Section Headers */
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 1.8rem;
+  }
+
+  .section-subtitle {
+    font-size: 1rem;
+  }
+
+  /* Filter Buttons */
+  .filter-container {
+    gap: 8px;
+    padding: 0 10px;
+  }
+
+  .filter-btn {
+    padding: 10px 18px;
+    font-size: 0.85rem;
+  }
+
+  .filter-btn i {
+    font-size: 1rem;
+  }
+
+  /* Navbar */
+  .navbar-collapse {
+    padding: 15px 0;
+  }
+
+  .navbar-actions {
+    flex-direction: column;
+    width: 100%;
+    gap: 12px;
+    margin-top: 15px;
+  }
+
+  .search-container {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+
+  .search-input:focus {
+    width: 100%;
+  }
+
+  .cart-wrapper {
+    width: 100%;
+  }
+
+  .btn-cart {
+    width: 100%;
+    justify-content: center;
+    display: flex;
+  }
+
+  .cart-dropdown {
+    width: 100%;
+    left: 0;
+    right: 0;
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    margin-top: 0;
+    border-radius: 20px 20px 0 0;
+    max-height: 70vh;
+  }
+
+  /* Product Cards */
+  .product-image {
+    height: 180px;
+  }
+
+  .product-name {
+    font-size: 1rem;
+    min-height: auto;
+  }
+
+  .product-price {
+    font-size: 1.2rem;
+  }
+
+  .btn-view, 
+  .btn-add {
+    padding: 12px 20px;
+    font-size: 0.9rem;
+  }
+
+  /* Modal */
+  .modal-overlay {
+    padding: 15px;
+    align-items: flex-end;
+  }
+
+  .modal-content-custom {
+    max-height: 85vh;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .modal-body-custom {
+    flex-direction: column;
+  }
+
+  .modal-image-section {
+    min-height: 200px;
+    max-height: 250px;
+  }
+
+  .modal-close {
+    top: 10px;
+    right: 10px;
+    width: 36px;
+    height: 36px;
+    font-size: 1rem;
+  }
+
+  .modal-badge {
+    top: 12px;
+    left: 12px;
+    padding: 6px 14px;
+    font-size: 0.75rem;
+  }
+
+  .modal-details {
+    padding: 24px;
+  }
+
+  .modal-title {
+    font-size: 1.4rem;
+  }
+
+  .modal-rating {
+    font-size: 1rem;
+    margin-bottom: 15px;
+  }
+
+  .modal-price {
+    font-size: 1.8rem;
+    margin-bottom: 16px;
+  }
+
+  .modal-description {
+    font-size: 0.95rem;
+    margin-bottom: 20px;
+  }
+
+  .modal-features {
+    gap: 8px;
+    margin-bottom: 20px;
+  }
+
+  .modal-feature {
+    padding: 6px 12px;
+    font-size: 0.8rem;
+  }
+
+  .modal-btn-add {
+    padding: 14px 24px;
+    font-size: 0.95rem;
+  }
+
+  /* Footer */
+  .footer {
+    padding: 40px 0 20px;
+  }
+
+  .footer-brand {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+
+  .footer-title {
+    margin-top: 20px;
+  }
+
+  /* Page Header */
+  .page-header {
+    padding: 50px 0;
+  }
+
+  .page-title {
+    font-size: 2rem;
+  }
+
+  .page-title i {
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 0 !important;
+  }
+
+  .page-subtitle {
+    font-size: 1rem;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 40px 0;
+  }
+
+  .contact-card {
+    border-radius: 20px;
+  }
+
+  .contact-info {
+    padding: 30px 24px;
+    border-radius: 20px 20px 0 0;
+  }
+
+  .contact-form,
+  .success-message {
+    padding: 30px 24px;
+  }
+
+  .form-title,
+  .contact-info h3 {
+    font-size: 1.4rem;
+  }
+
+  .contact-item {
+    margin-bottom: 16px;
+  }
+
+  .contact-item-icon {
+    width: 44px;
+    height: 44px;
+    font-size: 1.1rem;
+  }
+
+  .contact-item-text {
+    font-size: 0.9rem;
+  }
+
+  .form-group {
+    margin-bottom: 20px;
+  }
+
+  .form-control {
+    padding: 12px 16px;
+  }
+
+  .btn-submit {
+    padding: 14px 30px;
+    font-size: 0.95rem;
+  }
+
+  /* Nosotros */
+  .nosotros-section {
+    padding: 50px 0;
+  }
+
+  .nosotros-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .nosotros-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .nosotros-subtitle {
+    font-size: 1.15rem;
+    justify-content: center;
+  }
+
+  .nosotros-text {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .nosotros-card {
+    border-radius: 16px;
+  }
+
+  .nosotros-image {
+    height: 220px;
+  }
+
+  .nosotros-card.p-4,
+  .nosotros-card.p-lg-5 {
+    padding: 24px !important;
+  }
+
+  .value-item {
+    padding: 14px 18px;
+    margin-bottom: 12px;
+  }
+
+  .value-item strong {
+    font-size: 1rem;
+  }
+
+  .value-item p {
+    font-size: 0.9rem;
+  }
+
+  /* Libro */
+  .libro-section {
+    padding: 50px 0;
+  }
+
+  .libro-illustration {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .libro-icon-wrapper i.main-icon {
+    font-size: 6rem;
+  }
+
+  .libro-title-light {
+    font-size: 1.3rem;
+  }
+
+  .libro-title-bold {
+    font-size: 1.5rem;
+  }
+
+  .libro-form-card {
+    padding: 28px;
+    border-radius: 18px;
+  }
+
+  .libro-form-title {
+    font-size: 1.5rem;
+    margin-bottom: 24px;
+  }
+
+  .libro-form-group {
+    margin-bottom: 20px;
+  }
+
+  .libro-form-group label {
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+
+  .libro-form-group input,
+  .libro-form-group textarea {
+    padding: 12px 14px;
+    border-radius: 10px;
+    font-size: 0.95rem;
+  }
+
+  .libro-submit-btn {
+    padding: 14px 28px;
+    font-size: 0.95rem;
+    border-radius: 10px;
+  }
+
+  .libro-success-icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  .libro-success-icon i {
+    font-size: 2rem;
+  }
+
+  .libro-success h3 {
+    font-size: 1.4rem;
+  }
+
+  .libro-success p {
+    font-size: 0.95rem;
+  }
+
+  /* Ayuda */
+  .ayuda-section {
+    padding: 50px 0;
+  }
+
+  .ayuda-card {
+    padding: 30px;
+    border-radius: 18px;
+  }
+
+  .ayuda-illustration {
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .ayuda-icon-wrapper .cart-icon {
+    font-size: 6rem;
+  }
+
+  .ayuda-icon-wrapper .leaf-icon {
+    font-size: 1.8rem;
+    top: -8px;
+  }
+
+  .ayuda-brand {
+    font-size: 1.5rem;
+  }
+
+  .ayuda-title {
+    font-size: 1.6rem;
+    text-align: center;
+  }
+
+  .ayuda-title::after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .ayuda-text {
+    font-size: 0.95rem;
+    text-align: center;
+  }
+
+  .ayuda-contact-btn {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 12px 24px;
+  }
+}
+
+/* ===========================================
+   Mobile (max-width: 576px)
+   =========================================== */
+@media (max-width: 576px) {
+  /* Hero Section */
+  .hero-section {
+    padding: 50px 0;
+  }
+
+  .hero-title {
+    font-size: 2rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1rem;
+  }
+
+  /* Products Section */
+  .products-section {
+    padding: 40px 0;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+  }
+
+  .section-subtitle {
+    font-size: 0.9rem;
+  }
+
+  /* Filter Buttons */
+  .filter-container {
+    gap: 6px;
+  }
+
+  .filter-btn {
+    padding: 8px 14px;
+    font-size: 0.8rem;
+    gap: 6px;
+  }
+
+  .filter-btn i {
+    font-size: 0.9rem;
+  }
+
+  /* Product Cards */
+  .product-card {
+    border-radius: 16px;
+  }
+
+  .product-body {
+    padding: 16px;
+  }
+
+  .product-badge {
+    padding: 5px 10px;
+    font-size: 0.7rem;
+  }
+
+  .product-image {
+    height: 160px;
+  }
+
+  .btn-view {
+    padding: 10px 16px;
+    font-size: 0.85rem;
+  }
+
+  .btn-add {
+    padding: 12px 16px;
+    font-size: 0.85rem;
+  }
+
+  /* Modal */
+  .modal-overlay {
+    padding: 0;
+  }
+
+  .modal-content-custom {
+    max-height: 90vh;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .modal-image-section {
+    min-height: 180px;
+  }
+
+  .modal-details {
+    padding: 20px;
+  }
+
+  .modal-title {
+    font-size: 1.25rem;
+  }
+
+  .modal-price {
+    font-size: 1.6rem;
+  }
+
+  .modal-features {
+    flex-direction: column;
+  }
+
+  /* Footer */
+  .footer .row > div {
+    text-align: center;
+  }
+
+  .footer-brand {
+    justify-content: center;
+  }
+
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 20px;
+  }
+
+  .footer-links li {
+    margin-bottom: 0;
+  }
+
+  .footer-bottom {
+    font-size: 0.85rem;
+  }
+
+  /* Page Header */
+  .page-header {
+    padding: 40px 0;
+  }
+
+  .page-title {
+    font-size: 1.6rem;
+  }
+
+  /* Contact Section */
+  .contact-section {
+    padding: 30px 0;
+  }
+
+  .contact-card {
+    border-radius: 16px;
+    margin: 0 -12px;
+  }
+
+  .contact-info {
+    padding: 24px 20px;
+    border-radius: 16px 16px 0 0;
+  }
+
+  .contact-info h3 {
+    font-size: 1.25rem;
+  }
+
+  .contact-info p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+  }
+
+  .contact-item-icon {
+    width: 40px;
+    height: 40px;
+    font-size: 1rem;
+  }
+
+  .contact-item-label {
+    font-size: 0.75rem;
+  }
+
+  .contact-item-text {
+    font-size: 0.85rem;
+  }
+
+  .contact-form,
+  .success-message {
+    padding: 24px 20px;
+  }
+
+  .form-title {
+    font-size: 1.2rem;
+  }
+
+  .form-subtitle {
+    font-size: 0.9rem;
+    margin-bottom: 24px;
+  }
+
+  .form-label {
+    font-size: 0.9rem;
+  }
+
+  .form-control {
+    padding: 12px 14px;
+    font-size: 0.95rem;
+    border-radius: 10px;
+  }
+
+  textarea.form-control {
+    min-height: 120px;
+  }
+
+  .error-message {
+    font-size: 0.8rem;
+  }
+
+  .btn-submit {
+    padding: 14px 24px;
+    font-size: 0.9rem;
+    border-radius: 25px;
+  }
+
+  .success-icon {
+    width: 70px;
+    height: 70px;
+    font-size: 2rem;
+  }
+
+  .success-title {
+    font-size: 1.4rem;
+  }
+
+  .success-text {
+    font-size: 0.9rem;
+  }
+
+  .footer {
+    padding: 30px 0;
+    font-size: 0.9rem;
+  }
+
+  /* Nosotros */
+  .nosotros-section {
+    padding: 40px 0;
+  }
+
+  .nosotros-title {
+    font-size: 1.4rem;
+  }
+
+  .nosotros-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .nosotros-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+  }
+
+  .nosotros-card {
+    border-radius: 14px;
+  }
+
+  .nosotros-image {
+    height: 180px;
+  }
+
+  .nosotros-card.p-4,
+  .nosotros-card.p-lg-5 {
+    padding: 20px !important;
+  }
+
+  .value-item {
+    padding: 12px 16px;
+    border-left-width: 3px;
+  }
+
+  .value-item strong {
+    font-size: 0.95rem;
+  }
+
+  .value-item p {
+    font-size: 0.85rem;
+  }
+
+  /* Libro */
+  .libro-section {
+    padding: 40px 0;
+  }
+
+  .libro-illustration {
+    padding: 15px;
+  }
+
+  .libro-icon-wrapper i.main-icon {
+    font-size: 5rem;
+  }
+
+  .libro-title-light {
+    font-size: 1.1rem;
+  }
+
+  .libro-title-bold {
+    font-size: 1.3rem;
+  }
+
+  .libro-form-card {
+    padding: 22px;
+    border-radius: 16px;
+  }
+
+  .libro-form-title {
+    font-size: 1.3rem;
+    margin-bottom: 20px;
+  }
+
+  .libro-form-group {
+    margin-bottom: 18px;
+  }
+
+  .libro-form-group input,
+  .libro-form-group textarea {
+    padding: 11px 13px;
+    border-radius: 8px;
+    font-size: 0.9rem;
+  }
+
+  .libro-form-group textarea {
+    min-height: 100px;
+  }
+
+  .libro-submit-btn {
+    padding: 13px 24px;
+    font-size: 0.9rem;
+    border-radius: 8px;
+  }
+
+  .libro-success {
+    padding: 30px 15px;
+  }
+
+  .libro-success-icon {
+    width: 65px;
+    height: 65px;
+  }
+
+  .libro-success h3 {
+    font-size: 1.25rem;
+  }
+
+  .libro-success p {
+    font-size: 0.9rem;
+  }
+
+  .libro-reset-btn {
+    padding: 10px 24px;
+    font-size: 0.9rem;
+  }
+
+  /* Ayuda */
+  .ayuda-section {
+    padding: 40px 0;
+  }
+
+  .ayuda-card {
+    padding: 24px;
+    border-radius: 16px;
+  }
+
+  .ayuda-illustration {
+    padding: 15px;
+  }
+
+  .ayuda-icon-wrapper .cart-icon {
+    font-size: 5rem;
+  }
+
+  .ayuda-icon-wrapper .leaf-icon {
+    font-size: 1.5rem;
+    top: -5px;
+    right: -3px;
+  }
+
+  .ayuda-brand {
+    font-size: 1.3rem;
+  }
+
+  .ayuda-title {
+    font-size: 1.4rem;
+    margin-bottom: 18px;
+  }
+
+  .ayuda-text {
+    font-size: 0.9rem;
+    line-height: 1.7;
+    margin-bottom: 24px;
+  }
+
+  .ayuda-contact-btn {
+    padding: 11px 20px;
+    font-size: 0.9rem;
+    border-radius: 10px;
+  }
+
+  .ayuda-contact-btn i {
+    font-size: 1rem;
+  }
+}
